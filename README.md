@@ -1,4 +1,6 @@
-<<<<<<< HEAD
+# Warranty App ReactJs
+ReactJs App - front end for warranty App in C#
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -70,6 +72,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 =======
-# WarrantyAppReactJs
-ReactJs App - front end for warranty App in C#
->>>>>>> deef8232a0dbf6af27b8a570bdeced933703ca87
+
