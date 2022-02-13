@@ -29,7 +29,7 @@ const Signup = (prop) => {
             };
         }).catch(error => {
             if(error===400){
-                setError("There was a problem logging you in. Check username or password");
+                setError("The user with the username "+ userName +" already exists in the system");
             }else if(error===500){
                 setError("There was a problem on the server");
             }
