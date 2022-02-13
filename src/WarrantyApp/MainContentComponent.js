@@ -16,7 +16,8 @@ return(
         <main className='container'>   
         <Router>
             <Route exact path="/" component= {Home} />
-            <Route exact path="/dashboard" component= {DashBoard} />
+            <Route exact path="/home" component= {Home} />
+            <Route exact path="/dashboard" component= {()=><DashBoard stateObject={prop} />} />
             <Route path = "/login" component = {()=><Login setState={handleStateFromLogin} />} />
             <Route path = "/logout" component = {Logout} />
             <Route path = "/register" component = {Signup} />

@@ -18,8 +18,9 @@ const Login = (prop) => {
         result.then(async token=>{
             if(token!=null){
                 const state = [
-                    {"token":token},
-                    {"isLoggedin":true}
+                    {"token":token,
+                    "isLoggedin":true,
+                    "userName":userName}
                 ];
 
                 setState(state)

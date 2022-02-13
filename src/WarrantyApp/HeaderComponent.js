@@ -4,9 +4,9 @@ import logo from '../logo.svg';
 
 const HeaderComponents = (prop) => {
     let loginLinks;
-    if(prop.state!==null && prop.state.length!==0 && prop.state[1]?.isLoggedin){
+    if(prop.state!==null && prop.state.length!==0 && prop.state[0]?.isLoggedin){
         loginLinks = <ul className="navbar-nav">
-                        <li><a className="dropdown-item" href="/logout">LogOut</a></li>
+                      Welcome {prop.state[0]?.userName}  <li><a className="dropdown-item" href="/logout">LogOut</a></li>
                     </ul>
     }else{
         loginLinks = <ul className="navbar-nav">
