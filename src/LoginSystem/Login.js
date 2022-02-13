@@ -59,7 +59,7 @@ const Login = (prop) => {
             </div>   
             <div className="row col-6">
                 <div className="input-group">
-                    <input type="submit" className="btn btn-primary" name='submit' aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" />
+                    <input type="submit" className="btn btn-primary" value="Login" name='login' aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" />
                 </div>
             </div>
         </form>
