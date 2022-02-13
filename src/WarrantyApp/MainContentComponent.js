@@ -4,6 +4,7 @@ import DashBoard from '../LoginSystem/Dashboard';
 import Home from '../LoginSystem/Home';
 import Login from '../LoginSystem/Login';
 import Logout from '../LoginSystem/Logout';
+import Signup from '../LoginSystem/Signup'
 
 const MainContentComponents = (prop) => {
 
@@ -18,6 +19,7 @@ return(
             <Route exact path="/dashboard" component= {DashBoard} />
             <Route path = "/login" component = {()=><Login setState={handleStateFromLogin} />} />
             <Route path = "/logout" component = {Logout} />
+            <Route path = "/register" component = {Signup} />
         </Router>
         </main>
     );
