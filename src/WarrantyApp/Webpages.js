@@ -23,7 +23,7 @@ const Webpages = () => {
     return(
         <div className='App'>
         <HeaderComponents state={state} />
-        <MainContentComponents setState={handleStateFromMain}/>
+        <MainContentComponents setState={handleStateFromMain} state={state} />
         <FooterComponents />
         </div>
     );
