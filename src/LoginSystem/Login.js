@@ -15,12 +15,13 @@ const Login = (prop) => {
         const usercredentials = {'username':userName,'password':userPassword};
         const result = handleLogin(usercredentials);
 
-        result.then(async token=>{
-            if(token!=null){
+        result.then(async result=>{
+            if(result.token!=null){
                 const state = [
-                    {"token":token,
+                    {"token":result.token,
                     "isLoggedin":true,
-                    "userName":userName}
+                    "userName":result.email,
+                    "userId": result.userId}
                 ];
 
                 setState(state)
